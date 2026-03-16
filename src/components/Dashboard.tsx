@@ -180,7 +180,11 @@ export function Dashboard({
 
   return (
     <Drawer
+      autoFocus={false}
+      canOutsideClickClose={false}
       className="roam-gtd-drawer"
+      enforceFocus={false}
+      hasBackdrop={false}
       isOpen={isOpen}
       onClose={onCloseDrawer}
       position="right"
