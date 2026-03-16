@@ -1,0 +1,13 @@
+node_modules/
+build/
+dist/
+docs/
+.vscode/
+.specstory/
+.DS_Store
+extension.js
+.worktrees/
+.private-journal/
+.superpowers/
+.agents/
+.pi/

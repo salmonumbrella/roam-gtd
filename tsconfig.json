@@ -1,0 +1,12 @@
+{
+  "extends": "./node_modules/@samepage/scripts/tsconfig",
+  "compilerOptions": {
+    "baseUrl": null,
+    "esModuleInterop": true,
+    "paths": {
+      "src/*": ["./src/*"]
+    }
+  },
+  "include": ["src", "vitest.config.ts"],
+  "exclude": ["node_modules", "build", "dist"]
+}
