@@ -201,8 +201,9 @@ export function NextActionsModal({
 
   return (
     <Dialog
+      autoFocus={false}
       canEscapeKeyClose
-      canOutsideClickClose
+      canOutsideClickClose={false}
       className="roam-gtd-dialog"
       enforceFocus={false}
       isOpen={isOpen}

@@ -197,7 +197,7 @@ export function ReviewWizardShell(props: {
     <Dialog
       autoFocus={props.autoFocus ?? false}
       canEscapeKeyClose={props.canEscapeKeyClose ?? false}
-      canOutsideClickClose={props.canOutsideClickClose ?? true}
+      canOutsideClickClose={props.canOutsideClickClose ?? false}
       className="roam-gtd-dialog roam-gtd-review-dialog"
       enforceFocus={props.enforceFocus ?? false}
       isOpen={props.isOpen}
